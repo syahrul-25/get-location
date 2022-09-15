@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>The HTML5 Herald</title>
+		<meta name="description" content="Location and default location complete example" />
+		<meta name="author" content="Kesk" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous" />
+
+		<script src="location.js" async></script>
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="jumbotron">
+				<h1 class="display-3">Browser Location (example)</h1>
+				<p class="lead">Displays the current location offered by the browser if it is available or the predefined location if access to the location is denied ( From the browser or the operating system).</p>
+				<hr class="my-2" />
+				<p id="originId"></p>
+				<p id="latitudeId"></p>
+				<p id="longitudeId"></p>
+				<p id="addressId"></p>
+				<p class="lead">
+					<a class="btn btn-primary btn-lg" href="#!" onclick="getCurrentPosition()" role="button">Get current location</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>
