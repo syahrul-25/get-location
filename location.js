@@ -3,8 +3,6 @@ const CURRENT_LOCATION_TIMEOUT = 60000;
 const MAPBOX_API_TOKEN = "pk.eyJ1Ijoic3B1dG5pay1idW50cGxhbmV0IiwiYSI6ImNqcnVlc2JsYzByMnMzeXRjdzd1bXFlYTAifQ.n2S5gMsjFAOfJ5EAsBvFng";
 //Randers, Central Denmark, Denmark
 //56.460449	10.036367
-const DEFAULT_LAT_LOCATION = 56.460449;
-const DEFAULT_LNG_LOCATION = 10.036367;
 
 const promiseTimeout = (ms, promise) => {
 	let timeout = new Promise((resolve, reject) => {
